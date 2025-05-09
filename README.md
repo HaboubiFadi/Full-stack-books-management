@@ -25,5 +25,5 @@ A comprehensive book review platform built with **FastAPI**, **React**, and **Po
 
 ### Clone the Repository  
 ```bash
-git clone 
+git clone https://github.com/HaboubiFadi/Full-stack-books-management.git
 cd book-review-platform
