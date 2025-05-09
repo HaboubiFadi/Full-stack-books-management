@@ -1,0 +1,41 @@
+# Python - Backend
+venv/                       # Virtual environment files (local dependencies)
+__pycache__/               # Compiled Python files
+*.pyc                      # Compiled Python cache files
+*.pyo                      # Optimized Python bytecode
+*.pyd                      # Windows compiled files
+*.env                      # Environment variables (secrets, tokens)
+alembic.ini               # Database migration config (if not managed in code)
+
+# Node.js - Frontend
+node_modules/              # All frontend dependencies
+dist/                      # Production build directory (if using Vite)
+build/                     # Production build directory (if using CRA)
+.DS_Store                 # macOS folder attribute files
+
+# Docker
+docker-compose.override.yml # Override files for local development
+*.log                      # Docker logs
+*.pid                      # Docker process IDs
+
+# OS Files
+.DS_Store                 # macOS system files
+Thumbs.db                 # Windows system files
+*.swp                     # Vim swap files
+
+# IDE and Editor Settings
+.idea/                    # PyCharm/IntelliJ project settings
+.vscode/                  # VSCode settings
+*.sublime-project        # Sublime project settings
+*.sublime-workspace      # Sublime workspace settings
+
+# Logs and Debugging Files
+logs/                     # Application logs
+*.log                     # Log files
+coverage/                # Test coverage reports
+pytest_cache/            # pytest cache
+htmlcov/                 # HTML coverage reports
+
+# Git
+*.lock                    # Dependency lock files
+*.bak                     # Backup files
