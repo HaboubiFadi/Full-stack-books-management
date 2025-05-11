@@ -1,6 +1,8 @@
 # Python - Backend
-venv/                       # Virtual environment files (local dependencies)
-__pycache__/               # Compiled Python files
+backend/venv/                       # Virtual environment files (local dependencies)
+backend/__pycache__/               # Compiled Python files
+venv/
+__pycache__/  
 *.pyc                      # Compiled Python cache files
 *.pyo                      # Optimized Python bytecode
 *.pyd                      # Windows compiled files
@@ -17,7 +19,7 @@ build/                     # Production build directory (if using CRA)
 docker-compose.override.yml # Override files for local development
 *.log                      # Docker logs
 *.pid                      # Docker process IDs
-
+docker/postgres/data/
 # OS Files
 .DS_Store                 # macOS system files
 Thumbs.db                 # Windows system files
