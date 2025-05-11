@@ -1,6 +1,8 @@
 # Python - Backend
-venv/                       # Virtual environment files (local dependencies)
-__pycache__/               # Compiled Python files
+backend/venv/                       # Virtual environment files (local dependencies)
+backend/__pycache__/               # Compiled Python files
+venv/
+__pycache__/  
 *.pyc                      # Compiled Python cache files
 *.pyo                      # Optimized Python bytecode
 *.pyd                      # Windows compiled files
