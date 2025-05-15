@@ -1,7 +1,13 @@
 # Python - Backend
 backend/venv/                       # Virtual environment files (local dependencies)
 backend/__pycache__/               # Compiled Python files
+.env
+.venv
+env/
 venv/
+ENV/
+env.bak/
+venv.bak/
 __pycache__/  
 *.pyc                      # Compiled Python cache files
 *.pyo                      # Optimized Python bytecode
