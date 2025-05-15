@@ -21,4 +21,4 @@ app = FastAPI(
 )
 
 # 'postgresql://airflow_user:airflow_pass@postgres:5432/'
-app.include_router(book_router,prefix=f"/api/{version}",tags=["books"])
+app.include_router(book_router,prefix=f"/api/{version}/books",tags=["books"])
